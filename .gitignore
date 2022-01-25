@@ -1,0 +1,6 @@
+.idea
+Docker
+vendor
+composer.lock
+Dockerfile
+
