@@ -5,12 +5,15 @@
   <title>Kontakter</title>
 </head>
 <body>
-<h3>
-  <a href="https://www.youtube.com">Till Youtube</a>  <br>
-  <a href="https://www.google.com" target="_blank">Till Google till en ny flik</a>  <br>
-  <a href="https://.com">N/A</a>  <br>
-  <a href="Kontaktai5.html">Kontakter</a>  <br>
-  <a href="Labas_pasauli1.html">Först: Labas, pasauli! </a>
-</h3>
+  <form action="Kontaktai5.html" method="post" target="_blank">
+      <label for="name">Ditt namn: </label> <input type="text" id="name" name="name">
+    <br>
+      <label for="email">Dit mejladress: </label> <input type="email" id="email" name="email">
+    <br>
+      <label for="theme">Ämne meddelande </label> <input type="text" id="theme" name="Meddelande"><br>
+      <label for="message">Ditt meddelande</label> <textarea name="message" rows="1" cols="20" id="message">Meddelande</textarea>
+    <br>
+      <button type="button">Skicka meddelande</button>
+  </form>
 </body>
 </html>
