@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+h1  {background-color: pink;
+    border-style: solid;
+}
+
+nav {
+    background-color: pink;
+    border-style: solid;
+
+}
+main {
+    background-color: green;
+    border-style: solid;
+}
+
+aside {
+    background-color: yellow;
+    border-style: solid;
+}
+
+footer {
+    background-color: red;
+    border-style: solid;
+}
+</style>
   <meta charset="UTF-8">
-  <title>HTML Structure</title>
-    <style>
-    .header, .footer {
-      background-color: grey;
-      color: blue;
-      padding: 15px;
-    }
+    <title>HTML Structure</title>
+</head>
+<body>
+<div class="module">
+    <div>
+    <h1>
+        <header>Header</header>
+    </h1></div>
+    <div>
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 
-    </style>
-   </head>
-   <body>
-     <header>
-       <h1>Header</h1>
-     </header>
-     <nav>
-       <ul>
-         <li><a href="#">Home</a></li>
-         <li><a href="#">About Me</a></li>
-         <li><a href="#">Projects</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-        <form>
-          <input type="search" name="q" placeholder="Search query">
-          <input type="submit" value="Go!">
-        </form>
-      </nav>
-     <main>
-       <article>
-         <h2>About this page</h2>
-         <p>Proceeds writing about this page</p>
-         <h3>Subsection</h3>
-         <p>Proceeds writing about this page</p>
-         <h3>Another subsection</h3>
-         <p>Proceeds writing about this page</p>
-        </article>
-       <aside>
-         <h2>Related</h2>
+    <form>
+    <input type="search" name="q" placeholder="Search query">
+    <input type="submit" value="Go!">
 
-         <ul>
-           <li><a href="#">Oh I do like to be beside the seaside</a></li>
-           <li><a href="#">Oh I do like to be beside the sea</a></li>
-           <li><a href="#">Although in the North of England</a></li>
-           <li><a href="#">It never stops raining</a></li>
-           <li><a href="#">Oh well...</a></li>
-         </ul>
-       </aside>
+    </form>
+    </nav>
+    </div>
 
+    <div>
+    <main>
+     <article>
+        <h2>About this page</h2>
+            <p>Proceeds writing about this page</p>
+        <h3>Subsection</h3>
+            <p>Proceeds writing about this page</p>
+        <h3>Another subsection</h3>
+            <p>Proceeds writing about this page</p>
+     </article>
+     </div>
+     <div>
+      <aside>
+        <h2>Related</h2>
+            <ul>
+                <li><a href="#">Oh I do like to be beside the seaside</a></li>
+                <li><a href="#">Oh I do like to be beside the sea</a></li>
+                <li><a href="#">Although in the North of England</a></li>
+                <li><a href="#">It never stops raining</a></li>
+                <li><a href="#">Oh well...</a></li>
+                </ul>
+      </aside>
+      </div>
      </main>
-<footer>
-       <p>Copyright of Bea</p>
+     </div>
+
+     <div>
+     <footer>
+        <p>Copyright of Bea</p>
      </footer>
-   </body>
- </html>
+     </div>
+</body>
+</html>

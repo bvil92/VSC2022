@@ -1,0 +1,24 @@
+h1  {background-color: pink;
+    border-style: solid;
+}
+
+nav {
+    background-color: pink;
+    border-style: solid;
+
+}
+main {
+    background-color: green;
+    border-style: solid;
+}
+
+aside {
+    background-color: yellow;
+    border-style: solid;
+}
+
+footer {
+    background-color: red;
+    border-style: solid;
+}
+
