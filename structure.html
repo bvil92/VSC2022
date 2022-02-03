@@ -3,19 +3,83 @@
 <head>
 
   <meta charset="UTF-8">
+
     <title>HTML Structure</title>
-    <rel link="stylesheet" href="css/KARKASAS.css">
-</head>
+
+    <style>
+
+        body {
+            box-sizing: border-box;
+            display: grid;
+            grid-template-areas:
+    '2 1 1 1 1 1'
+    '2 3 3 3 4 4'
+    '2 5 5 5 5 5';
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        h1  {background-color: darkmagenta;
+            border-style: solid;
+            font-weight: bold;
+
+        }
+
+        nav {
+            background-color: pink;
+            border-style: solid;
+
+        }
+        main {
+            background-color: green;
+            border-style: solid;
+
+
+        }
+
+        aside {
+            background-color: yellow;
+            border-style: solid;
+
+
+        }
+
+        footer {
+            background-color: red;
+            border-style: solid;
+        }
+
+        p h1 {
+            grid-area: 1;
+        }
+
+        p nav {grid-area: 2;
+        }
+
+        p main {
+            grid-area: 3;
+        }
+        p aside {grid-area: 4;
+        }
+
+        p footer {grid-area: 5;
+        }
+
+
+    </style>
+
+    </head>
+
 <body>
-<div class="module">
-    <div>
+
     <h1>
-        <header>Header</header>
-    </h1></div>
-    <div>
+        Header
+    </h1>
+
+
     <nav>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li> <a href="#">Home</a></li>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
@@ -27,9 +91,9 @@
 
     </form>
     </nav>
-    </div>
 
-    <div>
+
+
     <main>
      <article>
         <h2>About this page</h2>
@@ -38,9 +102,9 @@
             <p>Proceeds writing about this page</p>
         <h3>Another subsection</h3>
             <p>Proceeds writing about this page</p>
-     </article>
-     </div>
-     <div>
+     </article></main>
+
+
       <aside>
         <h2>Related</h2>
             <ul>
@@ -51,14 +115,12 @@
                 <li><a href="#">Oh well...</a></li>
                 </ul>
       </aside>
-      </div>
-     </main>
-     </div>
 
-     <div>
+
+
      <footer>
         <p>Copyright of Bea</p>
      </footer>
-     </div>
 </body>
+
 </html>
