@@ -9,3 +9,4 @@ function toggleLamp() {
     }
     lemposBusena = !lemposBusena;
 }
+
