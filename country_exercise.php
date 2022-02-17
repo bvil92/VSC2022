@@ -28,8 +28,23 @@ $ceu = [
    "Poland" => "Warsaw",
 ] ;
 
+rsort($ceu);
+$clength = count($ceu);
+for($j = 0; $j < $clength; $j++) {
+    echo $ceu[$j];
+    echo "<br>";}
+
+$masyvoIlgis = count($ceu);
+
+for ($i = 0 ; i < $masyvoIlgis; $i++){
+if ($i % $x == 0){
+
+}
+}
+
 foreach ($ceu as $valstybe => $sostine) {
     echo "Lands $valstybe huvudstad: $sostine" ;
     "<br>";
 }
 
+vardump(array_keys($ceu));
